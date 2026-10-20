@@ -6,7 +6,7 @@
 
 | 部分 | 已有内容 | 未完成或限制 | 详细报告 |
 |---|---|---|---|
-| 公共题一 | Windows Python环境、依赖检查、本地目录组织与Git初始化 | 尚无持续提交记录；GitHub发布待完成，问卷链接未确认；无Linux验证截图 | [题一答题](q1_env/答题.md) |
+| 公共题一 | Windows Python环境、依赖检查、本地目录组织与Git初始化 | GitHub最终版已上传；无开发期间持续提交记录，问卷链接未确认；无Linux验证截图 | [题一答题](q1_env/答题.md) |
 | 公共题二 | 24张标定原图、内参和畸变、重投影误差、去畸变图、40cm单点粗测对比 | 格长未实测；单点使用棋盘内角点，不是A4四外角；没有五组距离、角度和其他对比实测 | [题二答题](q2_calib/答题.md) |
 | A题基本要求 | 两段必做视频识别/位姿、平移预测、曲线、调参工具及截图 | 无独立位置真值，侧视/遮挡仍有限制 | [A题提交报告](qA_aim/SUBMISSION_REPORT.md) |
 | A题发挥部分 | 已有近距离及蓝色视频结果、同视频Q/R对比 | 小陀螺车体中心、角速度及对应曲线未完成 | 同上 |
@@ -22,7 +22,7 @@
 
 使用项目独立虚拟环境，当前Python 3.13.11；直接依赖清单分题保存。2026-10-19重新核对环境版本，NumPy、OpenCV、Matplotlib、PyYAML、ReportLab、Open3D及SciPy均有已安装版本，pip check无依赖冲突，见 [最终环境记录](q1_env/environment_final_check.json)。这只验证环境与依赖，不代表在本次整理中重跑了实验。
 
-2026-10-20已在D:\RM1初始化Git仓库，准备最终版提交；远端仓库已建立：[rm-vision-recruit-LiChenyang](https://github.com/li15258288146-create/rm-vision-recruit-LiChenyang)（私有），内容推送待本地Git认证完成。此次初始化不代表开发期间已有持续提交历史，不补造过去记录。
+2026-10-20已在D:\RM1初始化Git仓库，准备最终版提交；远端仓库已建立：[rm-vision-recruit-LiChenyang](https://github.com/li15258288146-create/rm-vision-recruit-LiChenyang)（私有），最终版已推送至main，含答辩提纲、附加题报告、MNIST代码、数据和模型。已核对远端512个文件与本地Git内容哈希一致；私有仓库需向评审开放访问。此次初始化不代表开发期间已有持续提交历史，不补造过去记录。
 
 ### 题二：标定与单点粗测
 
