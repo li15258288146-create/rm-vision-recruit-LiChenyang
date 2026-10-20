@@ -1,0 +1,33 @@
+[
+  {
+    "t": 15.0,
+    "event": "enemy_spawn",
+    "detail": [
+      10.895381994168783,
+      -6.459949641685828
+    ]
+  },
+  {
+    "t": 18.3,
+    "event": "enemy_defeated",
+    "detail": [
+      10.895381994168783,
+      -6.459949641685828
+    ]
+  },
+  {
+    "t": 45.0,
+    "event": "external_damage_injection",
+    "detail": "HP set to 30 for retreat validation"
+  },
+  {
+    "t": 110.0,
+    "event": "ammo_depletion_injection",
+    "detail": "Ammo set to 0 for resupply validation"
+  },
+  {
+    "t": 165.0,
+    "event": "outpost_destroyed",
+    "detail": "Defense trigger"
+  }
+]

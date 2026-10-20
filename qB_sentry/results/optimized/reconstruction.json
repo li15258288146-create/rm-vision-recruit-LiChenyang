@@ -1,0 +1,30 @@
+{
+  "input_points": 285715,
+  "reliable_support_points": 97743,
+  "observed_cells": 75974,
+  "interpolated_cells": 61920,
+  "layer_filled_cells": 12513,
+  "dominant_layers": [
+    {
+      "height_m": 6.938893903907228e-18,
+      "observed_cells": 35497
+    },
+    {
+      "height_m": 0.20000000000000007,
+      "observed_cells": 19397
+    },
+    {
+      "height_m": 0.30000000000000004,
+      "observed_cells": 15633
+    }
+  ],
+  "free_cells": 129413,
+  "unknown_cells": 59920,
+  "obstacle_cells": 9282,
+  "step_cells": 2364,
+  "max_triangle_edge_m": 1.2,
+  "layer_distance_m": 0.8,
+  "layer_triangle_edge_m": 2.5,
+  "unknown_gray": 128,
+  "source": "leveled point cloud only; no reference map or queries"
+}

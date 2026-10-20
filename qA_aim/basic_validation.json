@@ -1,0 +1,37 @@
+{
+  "videos": [
+    {
+      "video": "远距离平移",
+      "decoded_source_frames": 1546,
+      "decoded_output_frames": 1546,
+      "container_fps": 150.0,
+      "timestamp_fps": 150,
+      "detection_rows": 1546,
+      "detected_frames": 1546,
+      "source_sha256": "4e118d1d4ce1056084836b41118a3faa108a4a1daa2c5a5e10620f48974ef111"
+    },
+    {
+      "video": "中距离陀螺",
+      "decoded_source_frames": 2550,
+      "decoded_output_frames": 2550,
+      "container_fps": 150.0,
+      "timestamp_fps": 150,
+      "detection_rows": 3260,
+      "detected_frames": 2550,
+      "source_sha256": "a1e354404e54f79ded99f40b22ae516ab9e6405149daed60eb6aff0430877c21"
+    }
+  ],
+  "prediction": {
+    "evaluated_frames": 1508,
+    "rmse_xyz_m": [
+      0.2990995178611596,
+      0.017062953895388,
+      0.09562736251490961
+    ],
+    "mean_euclidean_error_m": 0.24476154266092515,
+    "median_euclidean_error_m": 0.1801971202511342
+  },
+  "prediction_rows": 1546,
+  "checks": "Full decode, CSV columns/order/bounds, sampled PnP, forecast timestamp and metrics recomputation passed.",
+  "limitations": "Frame detection coverage is not precision/recall; no independent position ground truth. Existing slider-window screenshot inspected; GUI interaction not replayed by this verifier."
+}

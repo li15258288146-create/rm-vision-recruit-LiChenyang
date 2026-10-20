@@ -1,0 +1,63 @@
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+{"epoch": 1, "train_loss": 0.5325344978419218, "validation_loss": 0.19999003105163574, "validation_accuracy": 0.9422, "seconds": 1.7184601000044495}
+{"epoch": 2, "train_loss": 0.1587412962284955, "validation_loss": 0.11965298824310303, "validation_accuracy": 0.9638, "seconds": 1.7212060999590904}
+{"epoch": 3, "train_loss": 0.1063016233552586, "validation_loss": 0.0966746862411499, "validation_accuracy": 0.9704, "seconds": 1.8353649000055157}
+{"epoch": 4, "train_loss": 0.08509127715934407, "validation_loss": 0.08715658874511718, "validation_accuracy": 0.971, "seconds": 1.7646420000237413}
+{"epoch": 5, "train_loss": 0.07308204639499838, "validation_loss": 0.07328574085235595, "validation_accuracy": 0.9766, "seconds": 1.8065090000163764}
+W1020 18:36:45.753000 26444 Lib\site-packages\torch\onnx\_internal\exporter\_registration.py:107] torchvision is not installed. Skipping torchvision::nms
+W1020 18:36:45.756000 26444 Lib\site-packages\torch\onnx\_internal\exporter\_registration.py:107] torchvision is not installed. Skipping torchvision::roi_align
+W1020 18:36:45.757000 26444 Lib\site-packages\torch\onnx\_internal\exporter\_registration.py:107] torchvision is not installed. Skipping torchvision::roi_pool
+W1020 18:36:45.757000 26444 Lib\site-packages\torch\onnx\_internal\exporter\_registration.py:107] torchvision is not installed. Skipping torchvision::deform_conv2d
+[torch.onnx] Obtain model graph for `SmallCNN([...]` with `torch.export.export(..., strict=False)`...
+Traceback (most recent call last):
+  File "D:\RM1\extra\mnist\experiment.py", line 249, in <module>
+    main()
+    ~~~~^^
+  File "D:\RM1\extra\mnist\experiment.py", line 152, in main
+    torch.onnx.export(
+    ~~~~~~~~~~~~~~~~~^
+        model, (torch.zeros(2, 1, 28, 28),), str(onnx_path),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        dynamic_shapes={"x": {0: torch.export.Dim("batch", min=1, max=256)}},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\RM1\.venv\Lib\site-packages\torch\onnx\__init__.py", line 294, in export
+    return _compat.export_compat(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<18 lines>...
+        artifacts_dir=artifacts_dir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\RM1\.venv\Lib\site-packages\torch\onnx\_internal\exporter\_compat.py", line 161, in export_compat
+    onnx_program = _core.export(
+        model,
+    ...<13 lines>...
+        opset_version=opset_version,
+    )
+  File "D:\RM1\.venv\Lib\site-packages\torch\onnx\_internal\exporter\_flags.py", line 27, in wrapper
+    return func(*args, **kwargs)
+  File "D:\RM1\.venv\Lib\site-packages\torch\onnx\_internal\exporter\_core.py", line 1421, in export
+    result = strategy(model, args, kwargs, dynamic_shapes=dynamic_shapes)
+  File "D:\RM1\.venv\Lib\site-packages\torch\onnx\_internal\exporter\_capture_strategies.py", line 148, in __call__
+    self._success(model)
+    ~~~~~~~~~~~~~^^^^^^^
+  File "D:\RM1\.venv\Lib\site-packages\torch\onnx\_internal\exporter\_capture_strategies.py", line 274, in _success
+    self._verbose_print(
+    ~~~~~~~~~~~~~~~~~~~^
+        f"Obtain model graph for `{model_repr}` with `torch.export.export(..., strict=False)`... \u2705"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\RM1\.venv\Lib\site-packages\torch\onnx\_internal\exporter\_capture_strategies.py", line 31, in <lambda>
+    return lambda *args, **kwargs: print("[torch.onnx]", *args, **kwargs)
+                                   ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2705' in position 89: illegal multibyte sequence
+[torch.onnx] 

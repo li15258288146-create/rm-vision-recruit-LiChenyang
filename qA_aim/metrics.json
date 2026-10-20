@@ -1,0 +1,69 @@
+[
+  {
+    "video": "远距离平移",
+    "frames": 1546,
+    "detected_frames": 1546,
+    "detection_frame_fraction": 1.0,
+    "detection_rows": 1546,
+    "median_pnp_rms_px": 0.24813560843048216,
+    "brightness": 140,
+    "difference": 60,
+    "timestamp_fps": 150,
+    "input_size": [
+      1440,
+      1080
+    ],
+    "prediction": {
+      "evaluated_frames": 1508,
+      "rmse_xyz_m": [
+        0.2990995178611596,
+        0.017062953895388,
+        0.09562736251490961
+      ],
+      "mean_euclidean_error_m": 0.24476154266092515,
+      "median_euclidean_error_m": 0.1801971202511342
+    },
+    "stationary_baseline": {
+      "evaluated_frames": 1508,
+      "rmse_xyz_m": [
+        0.505543030958492,
+        0.008424954457133708,
+        0.05537719810027799
+      ],
+      "mean_euclidean_error_m": 0.4722816009409477,
+      "median_euclidean_error_m": 0.4936991391501975
+    },
+    "accepted_observations": 1546
+  },
+  {
+    "video": "中距离陀螺",
+    "frames": 2550,
+    "detected_frames": 2550,
+    "detection_frame_fraction": 1.0,
+    "detection_rows": 3260,
+    "median_pnp_rms_px": 0.5672576856147915,
+    "brightness": 140,
+    "difference": 60,
+    "timestamp_fps": 150,
+    "input_size": [
+      1440,
+      1080
+    ]
+  },
+  {
+    "video": "近距离陀螺",
+    "frames": 2105,
+    "detected_frames": 2105,
+    "detection_frame_fraction": 1.0,
+    "detection_rows": 2648,
+    "median_pnp_rms_px": 0.7258633380748363
+  },
+  {
+    "video": "装甲板_蓝",
+    "frames": 1684,
+    "detected_frames": 1209,
+    "detection_frame_fraction": 0.7179334916864608,
+    "detection_rows": 1218,
+    "median_pnp_rms_px": null
+  }
+]

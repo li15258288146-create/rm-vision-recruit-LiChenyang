@@ -1,0 +1,23 @@
+{
+  "duration_s": 240,
+  "dt_s": 0.1,
+  "speed_m_s": 1.2,
+  "distance_m": 186.15357773535828,
+  "collision_checks": 2401,
+  "collision_failures": 0,
+  "failed_routes": 0,
+  "visited_states": [
+    "DEFEND",
+    "ENGAGE",
+    "PATROL",
+    "RESUPPLY",
+    "RETREAT",
+    "STOP"
+  ],
+  "transition_count": 9,
+  "final_hp": 200,
+  "final_ammo": 80.0,
+  "simulation_video_speedup": 10,
+  "scenario": "15s enemy;45s HP=30;110s ammo=0;165s outpost lost;last30s defend",
+  "map": "provided map; registration uncertainty does not affect FSM experiment"
+}

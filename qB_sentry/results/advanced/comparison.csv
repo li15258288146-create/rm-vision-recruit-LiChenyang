@@ -1,0 +1,15 @@
+﻿query,algorithm,status,length_m,expanded,seconds,reference_status,reference_length_m,checker
+1,astar,start: insufficient_robot_clearance; goal: insufficient_robot_clearance,,0,0,reachable,21.0772409691675,not_applicable
+1,dijkstra,start: insufficient_robot_clearance; goal: insufficient_robot_clearance,,0,0,reachable,21.0772409691675,not_applicable
+2,astar,start: insufficient_robot_clearance,,0,0,reachable,27.49267386242257,not_applicable
+2,dijkstra,start: insufficient_robot_clearance,,0,0,reachable,27.49267386242257,not_applicable
+3,astar,start: insufficient_robot_clearance; goal: insufficient_robot_clearance,,0,0,reachable,50.8321182926954,not_applicable
+3,dijkstra,start: insufficient_robot_clearance; goal: insufficient_robot_clearance,,0,0,reachable,50.8321182926954,not_applicable
+4,astar,start: insufficient_robot_clearance,,0,0,reachable,25.882875887777907,not_applicable
+4,dijkstra,start: insufficient_robot_clearance,,0,0,reachable,25.882875887777907,not_applicable
+5,astar,goal: insufficient_robot_clearance,,0,0,reachable,56.95932608655962,not_applicable
+5,dijkstra,goal: insufficient_robot_clearance,,0,0,reachable,56.95932608655962,not_applicable
+6,astar,start: insufficient_robot_clearance; goal: insufficient_robot_clearance,,0,0,goal: insufficient_robot_clearance,,not_applicable
+6,dijkstra,start: insufficient_robot_clearance; goal: insufficient_robot_clearance,,0,0,goal: insufficient_robot_clearance,,not_applicable
+7,astar,start: insufficient_robot_clearance; goal: outside_map,,0,0,goal: outside_map,,not_applicable
+7,dijkstra,start: insufficient_robot_clearance; goal: outside_map,,0,0,goal: outside_map,,not_applicable

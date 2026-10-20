@@ -1,0 +1,333 @@
+[
+  {
+    "query": 1,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 20.54795164728616,
+    "expanded": 25008,
+    "seconds": 0.11354680004296824,
+    "reference_status": "reachable",
+    "reference_length_m": 21.0772409691675,
+    "checker": "passed"
+  },
+  {
+    "query": 1,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 20.54795164728616,
+    "expanded": 37276,
+    "seconds": 0.14841130003333092,
+    "reference_status": "reachable",
+    "reference_length_m": 21.0772409691675,
+    "checker": "passed"
+  },
+  {
+    "query": 2,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 31.17759810291432,
+    "expanded": 46748,
+    "seconds": 0.2286647000000812,
+    "reference_status": "reachable",
+    "reference_length_m": 27.49267386242257,
+    "checker": "passed"
+  },
+  {
+    "query": 2,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 31.17759810291432,
+    "expanded": 62339,
+    "seconds": 0.2700507999979891,
+    "reference_status": "reachable",
+    "reference_length_m": 27.49267386242257,
+    "checker": "passed"
+  },
+  {
+    "query": 3,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 54.932980489830555,
+    "expanded": 76658,
+    "seconds": 0.3579871999681927,
+    "reference_status": "reachable",
+    "reference_length_m": 50.8321182926954,
+    "checker": "passed"
+  },
+  {
+    "query": 3,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 54.932980489830555,
+    "expanded": 86048,
+    "seconds": 0.34939750004559755,
+    "reference_status": "reachable",
+    "reference_length_m": 50.8321182926954,
+    "checker": "passed"
+  },
+  {
+    "query": 4,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 28.103334034202394,
+    "expanded": 30505,
+    "seconds": 0.1438697999692522,
+    "reference_status": "reachable",
+    "reference_length_m": 25.882875887777907,
+    "checker": "passed"
+  },
+  {
+    "query": 4,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 28.103334034202394,
+    "expanded": 68713,
+    "seconds": 0.28248959995107725,
+    "reference_status": "reachable",
+    "reference_length_m": 25.882875887777907,
+    "checker": "passed"
+  },
+  {
+    "query": 5,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 59.54719405220365,
+    "expanded": 64248,
+    "seconds": 0.2972959000035189,
+    "reference_status": "reachable",
+    "reference_length_m": 56.95932608655962,
+    "checker": "passed"
+  },
+  {
+    "query": 5,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 59.54719405220365,
+    "expanded": 83306,
+    "seconds": 0.34765509999124333,
+    "reference_status": "reachable",
+    "reference_length_m": 56.95932608655962,
+    "checker": "passed"
+  },
+  {
+    "query": 6,
+    "algorithm": "astar",
+    "status": "goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: insufficient_robot_clearance",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 6,
+    "algorithm": "dijkstra",
+    "status": "goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: insufficient_robot_clearance",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 7,
+    "algorithm": "astar",
+    "status": "goal: outside_map",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: outside_map",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 7,
+    "algorithm": "dijkstra",
+    "status": "goal: outside_map",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: outside_map",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  }
+]
+[
+  {
+    "query": "S1",
+    "map": "self",
+    "algorithm": "astar",
+    "length_m": 19.236753236814714,
+    "expanded": 24182,
+    "seconds": 0.11570969998138025,
+    "checker": "passed"
+  },
+  {
+    "query": "S1",
+    "map": "self",
+    "algorithm": "dijkstra",
+    "length_m": 19.236753236814714,
+    "expanded": 31221,
+    "seconds": 0.12278019997756928,
+    "checker": "passed"
+  },
+  {
+    "query": "S1",
+    "map": "reference",
+    "algorithm": "astar",
+    "length_m": 19.573149339882605,
+    "expanded": 28904,
+    "seconds": 0.13616489997366443,
+    "checker": "passed"
+  },
+  {
+    "query": "S1",
+    "map": "reference",
+    "algorithm": "dijkstra",
+    "length_m": 19.573149339882605,
+    "expanded": 36845,
+    "seconds": 0.14545609999913722,
+    "checker": "passed"
+  },
+  {
+    "query": "S2",
+    "map": "self",
+    "algorithm": "astar",
+    "length_m": 50.64015869776648,
+    "expanded": 61315,
+    "seconds": 0.272748599993065,
+    "checker": "passed"
+  },
+  {
+    "query": "S2",
+    "map": "self",
+    "algorithm": "dijkstra",
+    "length_m": 50.64015869776648,
+    "expanded": 77939,
+    "seconds": 0.3222935000085272,
+    "checker": "passed"
+  },
+  {
+    "query": "S2",
+    "map": "reference",
+    "algorithm": "astar",
+    "length_m": 49.17741699796952,
+    "expanded": 71120,
+    "seconds": 0.34065960004227236,
+    "checker": "passed"
+  },
+  {
+    "query": "S2",
+    "map": "reference",
+    "algorithm": "dijkstra",
+    "length_m": 49.17741699796952,
+    "expanded": 88819,
+    "seconds": 0.366784599958919,
+    "checker": "passed"
+  },
+  {
+    "query": "S3",
+    "map": "self",
+    "algorithm": "astar",
+    "length_m": 60.30939751330899,
+    "expanded": 66819,
+    "seconds": 0.3045090999803506,
+    "checker": "passed"
+  },
+  {
+    "query": "S3",
+    "map": "self",
+    "algorithm": "dijkstra",
+    "length_m": 60.30939751330899,
+    "expanded": 87477,
+    "seconds": 0.36068949999753386,
+    "checker": "passed"
+  },
+  {
+    "query": "S3",
+    "map": "reference",
+    "algorithm": "astar",
+    "length_m": 57.985133444597054,
+    "expanded": 76238,
+    "seconds": 0.3589582000277005,
+    "checker": "passed"
+  },
+  {
+    "query": "S3",
+    "map": "reference",
+    "algorithm": "dijkstra",
+    "length_m": 57.985133444597054,
+    "expanded": 99387,
+    "seconds": 0.4217468000133522,
+    "checker": "passed"
+  }
+]
+{
+  "cross_checks": [
+    {
+      "query": 1,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 1,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 2,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 2,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 3,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 3,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 4,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 4,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 5,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 5,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    }
+  ],
+  "queries_sha256": "4804519b22049f084b1e7a5ed88d0ab5454cc13205ce6dc52f28ca3d408469eb",
+  "checker_sha256": "af95d5d5241d41ea9c76e3c36fac41e80bf022ea850e1980aee77da78f59bc6a",
+  "robot_radius_m": 0.3
+}

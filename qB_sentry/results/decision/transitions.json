@@ -1,0 +1,83 @@
+[
+  {
+    "t": 0.0,
+    "source": "STOP",
+    "target": "PATROL",
+    "hp": 200.0,
+    "ammo": 100.0,
+    "remaining": 240.0,
+    "outpost_alive": true
+  },
+  {
+    "t": 15.0,
+    "source": "PATROL",
+    "target": "ENGAGE",
+    "hp": 200.0,
+    "ammo": 100.0,
+    "remaining": 225.0,
+    "outpost_alive": true
+  },
+  {
+    "t": 18.4,
+    "source": "ENGAGE",
+    "target": "PATROL",
+    "hp": 196.6000000000002,
+    "ammo": 93.1999999999999,
+    "remaining": 221.6,
+    "outpost_alive": true
+  },
+  {
+    "t": 45.0,
+    "source": "PATROL",
+    "target": "RETREAT",
+    "hp": 30.0,
+    "ammo": 93.1999999999999,
+    "remaining": 195.0,
+    "outpost_alive": true
+  },
+  {
+    "t": 56.6,
+    "source": "RETREAT",
+    "target": "PATROL",
+    "hp": 160.0,
+    "ammo": 100,
+    "remaining": 183.4,
+    "outpost_alive": true
+  },
+  {
+    "t": 110.0,
+    "source": "PATROL",
+    "target": "RESUPPLY",
+    "hp": 160.0,
+    "ammo": 0.0,
+    "remaining": 130.0,
+    "outpost_alive": true
+  },
+  {
+    "t": 129.6,
+    "source": "RESUPPLY",
+    "target": "PATROL",
+    "hp": 200,
+    "ammo": 80.0,
+    "remaining": 110.4,
+    "outpost_alive": true
+  },
+  {
+    "t": 165.0,
+    "source": "PATROL",
+    "target": "DEFEND",
+    "hp": 200,
+    "ammo": 80.0,
+    "remaining": 75.0,
+    "outpost_alive": false
+  },
+  {
+    "t": 240.0,
+    "source": "DEFEND",
+    "target": "STOP",
+    "hp": 200,
+    "ammo": 80.0,
+    "remaining": 0,
+    "outpost_alive": false
+  }
+]

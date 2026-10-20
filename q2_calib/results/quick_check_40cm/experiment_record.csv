@@ -1,0 +1,2 @@
+image,reference_m,reference_method,reference_quality,target,estimated_m,absolute_difference_m,relative_difference_percent,status
+20261018_203840_129832.png,0.40,rangefinder,user-reported approximate reading,checkerboard center assuming 20 mm squares,0.3976503448136643,0.0023496551863357307,0.5874137965839327,preliminary check; not an A4 four-corner measurement

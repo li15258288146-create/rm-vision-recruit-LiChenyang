@@ -1,0 +1,18 @@
+{
+  "checked_date": "2026-10-18",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\RM1\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "numpy": "2.5.4",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "reportlab": "5.0.1"
+  },
+  "pip_check": "No broken requirements found.",
+  "pip_check_returncode": 0,
+  "git_on_path": "C:\\Program Files\\Git\\cmd\\git.EXE",
+  "local_git_directory": false,
+  "linux_verification": "Not assessed for this submission"
+}

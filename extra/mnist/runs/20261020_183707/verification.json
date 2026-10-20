@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "test_correct": [
+    9806,
+    9806
+  ],
+  "test_count": 10000,
+  "timing_rows": 10000,
+  "checks": [
+    "model SHA256",
+    "dataset MD5",
+    "split partition",
+    "all timing statistics",
+    "ONNX structure",
+    "full test-set predictions",
+    "confusion matrix",
+    "batch 1 and 32 numerical parity"
+  ]
+}

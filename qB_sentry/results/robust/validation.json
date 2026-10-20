@@ -1,0 +1,480 @@
+{
+  "robot_radius_m": 0.3,
+  "max_segment_m": 0.15,
+  "transform": {
+    "theta": 1.5706712837376593,
+    "angle_deg": 89.9928355605629,
+    "translation": [
+      22.970132986792827,
+      4.359001499539811
+    ],
+    "objective": 0.3393179232434519,
+    "holdout_median_m": 0.19908453524955771,
+    "holdout_within_10cm": 0.36076326774001194,
+    "structural_translation": [
+      23.020132986792827,
+      4.309001499539812
+    ],
+    "support_train_iou": 0.857166874483377,
+    "support_holdout_iou": 0.8530254131913882,
+    "final_holdout_median_m": 0.19873757107747464
+  },
+  "hypotheses": [
+    {
+      "dx_m": -0.05,
+      "dy_m": -0.05,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": -0.05,
+      "dy_m": -0.05,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": -0.05,
+      "dy_m": -0.05,
+      "dtheta_deg": 0.1
+    },
+    {
+      "dx_m": -0.05,
+      "dy_m": 0,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": -0.05,
+      "dy_m": 0,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": -0.05,
+      "dy_m": 0,
+      "dtheta_deg": 0.1
+    },
+    {
+      "dx_m": -0.05,
+      "dy_m": 0.05,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": -0.05,
+      "dy_m": 0.05,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": -0.05,
+      "dy_m": 0.05,
+      "dtheta_deg": 0.1
+    },
+    {
+      "dx_m": 0,
+      "dy_m": -0.05,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": 0,
+      "dy_m": -0.05,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": 0,
+      "dy_m": -0.05,
+      "dtheta_deg": 0.1
+    },
+    {
+      "dx_m": 0,
+      "dy_m": 0,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": 0,
+      "dy_m": 0,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": 0,
+      "dy_m": 0,
+      "dtheta_deg": 0.1
+    },
+    {
+      "dx_m": 0,
+      "dy_m": 0.05,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": 0,
+      "dy_m": 0.05,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": 0,
+      "dy_m": 0.05,
+      "dtheta_deg": 0.1
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": -0.05,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": -0.05,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": -0.05,
+      "dtheta_deg": 0.1
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": 0,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": 0,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": 0,
+      "dtheta_deg": 0.1
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": 0.05,
+      "dtheta_deg": -0.1
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": 0.05,
+      "dtheta_deg": 0
+    },
+    {
+      "dx_m": 0.05,
+      "dy_m": 0.05,
+      "dtheta_deg": 0.1
+    }
+  ],
+  "limitation": "27 discrete perturbations are sensitivity tests, not a continuous uncertainty guarantee. Fixed endpoints may be outside robust core. Reference map constraints are explicitly fused; independent map remains unchanged.",
+  "queries_sha256": "4804519b22049f084b1e7a5ed88d0ab5454cc13205ce6dc52f28ca3d408469eb",
+  "checker_sha256": "af95d5d5241d41ea9c76e3c36fac41e80bf022ea850e1980aee77da78f59bc6a",
+  "records": [
+    {
+      "query": 1,
+      "algorithm": "astar",
+      "status": "reachable",
+      "length_m": 22.90150503787943,
+      "weighted_cost": 24.62441899994012,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 1.0,
+        "mean_scenario_safe_sample_fraction": 1.0,
+        "whole_path_passing_scenarios": 27,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.5306572562858404,
+        "mean_scenario_safe_sample_fraction": 0.8673724452286429,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "query": 1,
+      "algorithm": "dijkstra",
+      "status": "reachable",
+      "length_m": 22.90150503787943,
+      "weighted_cost": 24.62441899994012,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 1.0,
+        "mean_scenario_safe_sample_fraction": 1.0,
+        "whole_path_passing_scenarios": 27,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.5646437994722955,
+        "mean_scenario_safe_sample_fraction": 0.8349946252320922,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "query": 2,
+      "algorithm": "astar",
+      "status": "reachable",
+      "length_m": 34.02820776835531,
+      "weighted_cost": 36.413143710042156,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 1.0,
+        "mean_scenario_safe_sample_fraction": 1.0,
+        "whole_path_passing_scenarios": 27,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.5605755395683453,
+        "mean_scenario_safe_sample_fraction": 0.8444444444444444,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "query": 2,
+      "algorithm": "dijkstra",
+      "status": "reachable",
+      "length_m": 34.02820776835531,
+      "weighted_cost": 36.413143710042156,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 1.0,
+        "mean_scenario_safe_sample_fraction": 1.0,
+        "whole_path_passing_scenarios": 27,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.6658045977011494,
+        "mean_scenario_safe_sample_fraction": 0.8880161770966368,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "query": 3,
+      "algorithm": "astar",
+      "status": "reachable",
+      "length_m": 60.989834739322944,
+      "weighted_cost": 66.09927938318089,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 0.9995573262505534,
+        "mean_scenario_safe_sample_fraction": 0.9998524420835178,
+        "whole_path_passing_scenarios": 18,
+        "endpoint_passing_scenarios": [
+          18,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.581502131846507,
+        "mean_scenario_safe_sample_fraction": 0.8460758232814645,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          18,
+          27
+        ]
+      }
+    },
+    {
+      "query": 3,
+      "algorithm": "dijkstra",
+      "status": "reachable",
+      "length_m": 60.989834739322944,
+      "weighted_cost": 66.09927938318089,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 0.9995573262505534,
+        "mean_scenario_safe_sample_fraction": 0.9998524420835178,
+        "whole_path_passing_scenarios": 18,
+        "endpoint_passing_scenarios": [
+          18,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.6221311475409836,
+        "mean_scenario_safe_sample_fraction": 0.8769034608378871,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          18,
+          27
+        ]
+      }
+    },
+    {
+      "query": 4,
+      "algorithm": "astar",
+      "status": "reachable",
+      "length_m": 31.32257284974491,
+      "weighted_cost": 33.733310695261906,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 1.0,
+        "mean_scenario_safe_sample_fraction": 1.0,
+        "whole_path_passing_scenarios": 27,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.4193134424125762,
+        "mean_scenario_safe_sample_fraction": 0.7976330517235233,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "query": 4,
+      "algorithm": "dijkstra",
+      "status": "reachable",
+      "length_m": 31.32257284974491,
+      "weighted_cost": 33.733310695261906,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 1.0,
+        "mean_scenario_safe_sample_fraction": 1.0,
+        "whole_path_passing_scenarios": 27,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.5718409236690186,
+        "mean_scenario_safe_sample_fraction": 0.8736963390587509,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "query": 5,
+      "algorithm": "astar",
+      "status": "reachable",
+      "length_m": 66.10612982971315,
+      "weighted_cost": 70.96801745710766,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 1.0,
+        "mean_scenario_safe_sample_fraction": 1.0,
+        "whole_path_passing_scenarios": 27,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.5352923356558619,
+        "mean_scenario_safe_sample_fraction": 0.8153702020712018,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "query": 5,
+      "algorithm": "dijkstra",
+      "status": "reachable",
+      "length_m": 66.10612982971315,
+      "weighted_cost": 70.96801745710766,
+      "checks": {
+        "self": true,
+        "reference": true,
+        "fused": true
+      },
+      "robustness": {
+        "all_scenarios_safe_sample_fraction": 1.0,
+        "mean_scenario_safe_sample_fraction": 1.0,
+        "whole_path_passing_scenarios": 27,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      },
+      "previous_robustness": {
+        "all_scenarios_safe_sample_fraction": 0.6176336918648689,
+        "mean_scenario_safe_sample_fraction": 0.8576814960696191,
+        "whole_path_passing_scenarios": 0,
+        "endpoint_passing_scenarios": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "query": 6,
+      "status": "invalid_endpoint",
+      "reasons": [
+        null,
+        "insufficient_robot_clearance"
+      ]
+    },
+    {
+      "query": 7,
+      "status": "invalid_endpoint",
+      "reasons": [
+        null,
+        "outside_map"
+      ]
+    }
+  ]
+}

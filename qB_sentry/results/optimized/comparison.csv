@@ -1,0 +1,15 @@
+﻿query,algorithm,status,length_m,expanded,seconds,reference_status,reference_length_m,checker
+1,astar,reachable,20.54795164728616,25008,0.11354680004296824,reachable,21.0772409691675,passed
+1,dijkstra,reachable,20.54795164728616,37276,0.14841130003333092,reachable,21.0772409691675,passed
+2,astar,reachable,31.17759810291432,46748,0.2286647000000812,reachable,27.49267386242257,passed
+2,dijkstra,reachable,31.17759810291432,62339,0.2700507999979891,reachable,27.49267386242257,passed
+3,astar,reachable,54.932980489830555,76658,0.3579871999681927,reachable,50.8321182926954,passed
+3,dijkstra,reachable,54.932980489830555,86048,0.34939750004559755,reachable,50.8321182926954,passed
+4,astar,reachable,28.103334034202394,30505,0.1438697999692522,reachable,25.882875887777907,passed
+4,dijkstra,reachable,28.103334034202394,68713,0.28248959995107725,reachable,25.882875887777907,passed
+5,astar,reachable,59.54719405220365,64248,0.2972959000035189,reachable,56.95932608655962,passed
+5,dijkstra,reachable,59.54719405220365,83306,0.34765509999124333,reachable,56.95932608655962,passed
+6,astar,goal: insufficient_robot_clearance,,0,0,goal: insufficient_robot_clearance,,not_applicable
+6,dijkstra,goal: insufficient_robot_clearance,,0,0,goal: insufficient_robot_clearance,,not_applicable
+7,astar,goal: outside_map,,0,0,goal: outside_map,,not_applicable
+7,dijkstra,goal: outside_map,,0,0,goal: outside_map,,not_applicable

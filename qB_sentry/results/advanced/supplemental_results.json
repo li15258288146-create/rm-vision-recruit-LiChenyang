@@ -1,0 +1,110 @@
+[
+  {
+    "query": "S1",
+    "map": "self",
+    "algorithm": "astar",
+    "length_m": 15.356244584051392,
+    "expanded": 4748,
+    "seconds": 0.021373900002799928,
+    "checker": "passed"
+  },
+  {
+    "query": "S1",
+    "map": "self",
+    "algorithm": "dijkstra",
+    "length_m": 15.356244584051392,
+    "expanded": 20779,
+    "seconds": 0.07815720001235604,
+    "checker": "passed"
+  },
+  {
+    "query": "S1",
+    "map": "reference",
+    "algorithm": "astar",
+    "length_m": 14.942031021678297,
+    "expanded": 1413,
+    "seconds": 0.0059634000062942505,
+    "checker": "passed"
+  },
+  {
+    "query": "S1",
+    "map": "reference",
+    "algorithm": "dijkstra",
+    "length_m": 14.942031021678295,
+    "expanded": 29205,
+    "seconds": 0.10837729997001588,
+    "checker": "passed"
+  },
+  {
+    "query": "S2",
+    "map": "self",
+    "algorithm": "astar",
+    "length_m": 10.561269837220808,
+    "expanded": 4384,
+    "seconds": 0.017440900031942874,
+    "checker": "passed"
+  },
+  {
+    "query": "S2",
+    "map": "self",
+    "algorithm": "dijkstra",
+    "length_m": 10.561269837220808,
+    "expanded": 17434,
+    "seconds": 0.06042229995364323,
+    "checker": "passed"
+  },
+  {
+    "query": "S2",
+    "map": "reference",
+    "algorithm": "astar",
+    "length_m": 10.395584412271571,
+    "expanded": 4074,
+    "seconds": 0.01810939999995753,
+    "checker": "passed"
+  },
+  {
+    "query": "S2",
+    "map": "reference",
+    "algorithm": "dijkstra",
+    "length_m": 10.395584412271571,
+    "expanded": 25123,
+    "seconds": 0.09601819998351857,
+    "checker": "passed"
+  },
+  {
+    "query": "S3",
+    "map": "self",
+    "algorithm": "astar",
+    "length_m": 14.664570696119922,
+    "expanded": 6247,
+    "seconds": 0.030623900005593896,
+    "checker": "passed"
+  },
+  {
+    "query": "S3",
+    "map": "self",
+    "algorithm": "dijkstra",
+    "length_m": 14.664570696119926,
+    "expanded": 20635,
+    "seconds": 0.09467309998581186,
+    "checker": "passed"
+  },
+  {
+    "query": "S3",
+    "map": "reference",
+    "algorithm": "astar",
+    "length_m": 14.564570696119919,
+    "expanded": 10353,
+    "seconds": 0.04359080002177507,
+    "checker": "passed"
+  },
+  {
+    "query": "S3",
+    "map": "reference",
+    "algorithm": "dijkstra",
+    "length_m": 14.564570696119919,
+    "expanded": 40530,
+    "seconds": 0.15104430000064895,
+    "checker": "passed"
+  }
+]

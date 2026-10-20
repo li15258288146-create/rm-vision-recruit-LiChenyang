@@ -1,0 +1,156 @@
+[
+  {
+    "query": 1,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 20.54795164728616,
+    "expanded": 25008,
+    "seconds": 0.11354680004296824,
+    "reference_status": "reachable",
+    "reference_length_m": 21.0772409691675,
+    "checker": "passed"
+  },
+  {
+    "query": 1,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 20.54795164728616,
+    "expanded": 37276,
+    "seconds": 0.14841130003333092,
+    "reference_status": "reachable",
+    "reference_length_m": 21.0772409691675,
+    "checker": "passed"
+  },
+  {
+    "query": 2,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 31.17759810291432,
+    "expanded": 46748,
+    "seconds": 0.2286647000000812,
+    "reference_status": "reachable",
+    "reference_length_m": 27.49267386242257,
+    "checker": "passed"
+  },
+  {
+    "query": 2,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 31.17759810291432,
+    "expanded": 62339,
+    "seconds": 0.2700507999979891,
+    "reference_status": "reachable",
+    "reference_length_m": 27.49267386242257,
+    "checker": "passed"
+  },
+  {
+    "query": 3,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 54.932980489830555,
+    "expanded": 76658,
+    "seconds": 0.3579871999681927,
+    "reference_status": "reachable",
+    "reference_length_m": 50.8321182926954,
+    "checker": "passed"
+  },
+  {
+    "query": 3,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 54.932980489830555,
+    "expanded": 86048,
+    "seconds": 0.34939750004559755,
+    "reference_status": "reachable",
+    "reference_length_m": 50.8321182926954,
+    "checker": "passed"
+  },
+  {
+    "query": 4,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 28.103334034202394,
+    "expanded": 30505,
+    "seconds": 0.1438697999692522,
+    "reference_status": "reachable",
+    "reference_length_m": 25.882875887777907,
+    "checker": "passed"
+  },
+  {
+    "query": 4,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 28.103334034202394,
+    "expanded": 68713,
+    "seconds": 0.28248959995107725,
+    "reference_status": "reachable",
+    "reference_length_m": 25.882875887777907,
+    "checker": "passed"
+  },
+  {
+    "query": 5,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 59.54719405220365,
+    "expanded": 64248,
+    "seconds": 0.2972959000035189,
+    "reference_status": "reachable",
+    "reference_length_m": 56.95932608655962,
+    "checker": "passed"
+  },
+  {
+    "query": 5,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 59.54719405220365,
+    "expanded": 83306,
+    "seconds": 0.34765509999124333,
+    "reference_status": "reachable",
+    "reference_length_m": 56.95932608655962,
+    "checker": "passed"
+  },
+  {
+    "query": 6,
+    "algorithm": "astar",
+    "status": "goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: insufficient_robot_clearance",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 6,
+    "algorithm": "dijkstra",
+    "status": "goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: insufficient_robot_clearance",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 7,
+    "algorithm": "astar",
+    "status": "goal: outside_map",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: outside_map",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 7,
+    "algorithm": "dijkstra",
+    "status": "goal: outside_map",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: outside_map",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  }
+]

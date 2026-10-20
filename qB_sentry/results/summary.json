@@ -1,0 +1,200 @@
+[
+  {
+    "query": 1,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 21.0772409691675,
+    "expanded": 29281,
+    "seconds": 0.12610999995376915,
+    "checker": "passed"
+  },
+  {
+    "query": 1,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 21.077240969167505,
+    "expanded": 43090,
+    "seconds": 0.16073879995383322,
+    "checker": "passed"
+  },
+  {
+    "query": 1,
+    "algorithm": "astar_manhattan_w1",
+    "status": "reachable",
+    "length_m": 21.0772409691675,
+    "expanded": 25809,
+    "seconds": 0.11614910000935197,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 1,
+    "algorithm": "astar_octile_w2",
+    "status": "reachable",
+    "length_m": 21.0772409691675,
+    "expanded": 388879,
+    "seconds": 1.767009600007441,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 2,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 27.49267386242257,
+    "expanded": 43484,
+    "seconds": 0.20364749996224418,
+    "checker": "passed"
+  },
+  {
+    "query": 2,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 27.49267386242257,
+    "expanded": 69896,
+    "seconds": 0.2682904999819584,
+    "checker": "passed"
+  },
+  {
+    "query": 2,
+    "algorithm": "astar_manhattan_w1",
+    "status": "reachable",
+    "length_m": 27.49267386242257,
+    "expanded": 33805,
+    "seconds": 0.15659569995477796,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 2,
+    "algorithm": "astar_octile_w2",
+    "status": "reachable",
+    "length_m": 27.49267386242257,
+    "expanded": 106903,
+    "seconds": 0.4921260999981314,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 3,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 50.8321182926954,
+    "expanded": 81786,
+    "seconds": 0.32795740000437945,
+    "checker": "passed"
+  },
+  {
+    "query": 3,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 50.8321182926954,
+    "expanded": 100469,
+    "seconds": 0.3767115999944508,
+    "checker": "passed"
+  },
+  {
+    "query": 3,
+    "algorithm": "astar_manhattan_w1",
+    "status": "reachable",
+    "length_m": 50.8321182926954,
+    "expanded": 80415,
+    "seconds": 0.3321882000309415,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 3,
+    "algorithm": "astar_octile_w2",
+    "status": "reachable",
+    "length_m": 50.8321182926954,
+    "expanded": 277049,
+    "seconds": 1.2358723999932408,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 4,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 25.882875887777907,
+    "expanded": 33506,
+    "seconds": 0.1684417999931611,
+    "checker": "passed"
+  },
+  {
+    "query": 4,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 25.882875887777907,
+    "expanded": 76613,
+    "seconds": 0.2880635999608785,
+    "checker": "passed"
+  },
+  {
+    "query": 4,
+    "algorithm": "astar_manhattan_w1",
+    "status": "reachable",
+    "length_m": 25.882875887777907,
+    "expanded": 31421,
+    "seconds": 0.14560139999957755,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 4,
+    "algorithm": "astar_octile_w2",
+    "status": "reachable",
+    "length_m": 25.882875887777907,
+    "expanded": 42816,
+    "seconds": 0.19923330005258322,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 5,
+    "algorithm": "astar",
+    "status": "reachable",
+    "length_m": 56.95932608655962,
+    "expanded": 71357,
+    "seconds": 0.2873929000343196,
+    "checker": "passed"
+  },
+  {
+    "query": 5,
+    "algorithm": "dijkstra",
+    "status": "reachable",
+    "length_m": 56.95932608655962,
+    "expanded": 95491,
+    "seconds": 0.34644419996766374,
+    "checker": "passed"
+  },
+  {
+    "query": 5,
+    "algorithm": "astar_manhattan_w1",
+    "status": "reachable",
+    "length_m": 56.95932608655962,
+    "expanded": 68389,
+    "seconds": 0.2922378000221215,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 5,
+    "algorithm": "astar_octile_w2",
+    "status": "reachable",
+    "length_m": 56.95932608655962,
+    "expanded": 202077,
+    "seconds": 0.9278318000142463,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 6,
+    "algorithm": "both",
+    "status": "goal: insufficient_robot_clearance",
+    "length_m": "",
+    "expanded": 0,
+    "seconds": 0,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 7,
+    "algorithm": "both",
+    "status": "goal: outside_map",
+    "length_m": "",
+    "expanded": 0,
+    "seconds": 0,
+    "checker": "not_applicable"
+  }
+]

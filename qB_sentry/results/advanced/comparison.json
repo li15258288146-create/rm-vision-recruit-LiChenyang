@@ -1,0 +1,156 @@
+[
+  {
+    "query": 1,
+    "algorithm": "astar",
+    "status": "start: insufficient_robot_clearance; goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 21.0772409691675,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 1,
+    "algorithm": "dijkstra",
+    "status": "start: insufficient_robot_clearance; goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 21.0772409691675,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 2,
+    "algorithm": "astar",
+    "status": "start: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 27.49267386242257,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 2,
+    "algorithm": "dijkstra",
+    "status": "start: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 27.49267386242257,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 3,
+    "algorithm": "astar",
+    "status": "start: insufficient_robot_clearance; goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 50.8321182926954,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 3,
+    "algorithm": "dijkstra",
+    "status": "start: insufficient_robot_clearance; goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 50.8321182926954,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 4,
+    "algorithm": "astar",
+    "status": "start: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 25.882875887777907,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 4,
+    "algorithm": "dijkstra",
+    "status": "start: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 25.882875887777907,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 5,
+    "algorithm": "astar",
+    "status": "goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 56.95932608655962,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 5,
+    "algorithm": "dijkstra",
+    "status": "goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "reachable",
+    "reference_length_m": 56.95932608655962,
+    "checker": "not_applicable"
+  },
+  {
+    "query": 6,
+    "algorithm": "astar",
+    "status": "start: insufficient_robot_clearance; goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: insufficient_robot_clearance",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 6,
+    "algorithm": "dijkstra",
+    "status": "start: insufficient_robot_clearance; goal: insufficient_robot_clearance",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: insufficient_robot_clearance",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 7,
+    "algorithm": "astar",
+    "status": "start: insufficient_robot_clearance; goal: outside_map",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: outside_map",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  },
+  {
+    "query": 7,
+    "algorithm": "dijkstra",
+    "status": "start: insufficient_robot_clearance; goal: outside_map",
+    "length_m": null,
+    "expanded": 0,
+    "seconds": 0,
+    "reference_status": "goal: outside_map",
+    "reference_length_m": "",
+    "checker": "not_applicable"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "best": {
+    "theta": 1.5706712837376593,
+    "angle_deg": 89.9928355605629,
+    "translation": [
+      22.970132986792827,
+      4.359001499539811
+    ],
+    "objective": 0.3393179232434519,
+    "holdout_median_m": 0.19908453524955771,
+    "holdout_within_10cm": 0.36076326774001194,
+    "structural_translation": [
+      23.020132986792827,
+      4.309001499539812
+    ],
+    "support_train_iou": 0.857166874483377,
+    "support_holdout_iou": 0.8530254131913882,
+    "final_holdout_median_m": 0.19873757107747464
+  },
+  "candidates": [
+    {
+      "theta": -1.5707964553926925,
+      "angle_deg": -90.00000736811096,
+      "translation": [
+        -0.9800020107286661,
+        -7.2899984085588265
+      ],
+      "objective": 0.3423909127550027,
+      "holdout_median_m": 0.1999987962228951,
+      "holdout_within_10cm": 0.3542039355992844,
+      "structural_translation": [
+        -0.9300020107286661,
+        -7.2899984085588265
+      ],
+      "support_train_iou": 0.8584973041103564,
+      "support_holdout_iou": 0.8518513341626714,
+      "final_holdout_median_m": 0.18027927338472943
+    },
+    {
+      "theta": 1.5706712837376593,
+      "angle_deg": 89.9928355605629,
+      "translation": [
+        22.970132986792827,
+        4.359001499539811
+      ],
+      "objective": 0.3393179232434519,
+      "holdout_median_m": 0.19908453524955771,
+      "holdout_within_10cm": 0.36076326774001194,
+      "structural_translation": [
+        23.020132986792827,
+        4.309001499539812
+      ],
+      "support_train_iou": 0.857166874483377,
+      "support_holdout_iou": 0.8530254131913882,
+      "final_holdout_median_m": 0.19873757107747464
+    }
+  ],
+  "orientation_ambiguous": true,
+  "selection_rule": "Within 1 percentage point training support IoU, tie-break by structural objective; no endpoint scoring",
+  "transform_aligned_to_reference": [
+    [
+      0.00012504305691146572,
+      -0.9999999921821169,
+      22.970132986792827
+    ],
+    [
+      0.9999999921821169,
+      0.00012504305691146572,
+      4.359001499539811
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_feature_count": 6708,
+  "train_count": 3354,
+  "holdout_count": 3354,
+  "free_iou": 0.855093246778684,
+  "agreement_known": 0.919146637482286,
+  "known_coverage": 0.7546216885839527,
+  "source": "stable vertical structures; half source features held out; no query input"
+}

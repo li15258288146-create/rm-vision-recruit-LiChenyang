@@ -1,0 +1,13 @@
+{
+  "interpolated_cells": 29483,
+  "free_cells": 105641,
+  "step_edge_cells": 12346,
+  "ramp_cells": 16327,
+  "upper_shell_points": 644635,
+  "above_3m_points": 645110,
+  "above_3m_near_boundary_fraction": 0.9992636914634714,
+  "max_height_m": 18.67870026207883,
+  "exclusion_rule": "z>3 m and within 0.25 m of robust outer boundary; retain low wall footprint",
+  "cause": "Likely simulation enclosing wall geometry; static merged cloud cannot establish provenance or prove dynamic objects.",
+  "source_untouched": true
+}

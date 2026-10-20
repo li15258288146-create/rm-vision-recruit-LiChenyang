@@ -1,0 +1,38 @@
+[
+  {
+    "id": "S1",
+    "start": [
+      0.5449999999999999,
+      5.6850000000000005
+    ],
+    "goal": [
+      5.045,
+      -8.615
+    ],
+    "selection": "extreme common-free cells in largest self-map component; separate benchmark"
+  },
+  {
+    "id": "S2",
+    "start": [
+      -2.605,
+      -0.7649999999999988
+    ],
+    "goal": [
+      24.545,
+      2.1350000000000016
+    ],
+    "selection": "extreme common-free cells in largest self-map component; separate benchmark"
+  },
+  {
+    "id": "S3",
+    "start": [
+      0.5449999999999999,
+      5.6850000000000005
+    ],
+    "goal": [
+      21.495000000000005,
+      -8.565
+    ],
+    "selection": "extreme common-free cells in largest self-map component; separate benchmark"
+  }
+]

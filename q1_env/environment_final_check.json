@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-19",
+  "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.4",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "reportlab": "5.0.1",
+    "open3d": "0.20.0",
+    "scipy": "1.18.1"
+  },
+  "pip_check_exit_code": 0,
+  "pip_check_output": "No broken requirements found.",
+  "git_directory_present": false,
+  "scope": "environment metadata and dependency consistency only; no experiments rerun"
+}

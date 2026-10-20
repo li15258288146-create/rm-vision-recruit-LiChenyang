@@ -1,0 +1,19 @@
+{
+  "image": "D:\\RM1\\q2_calib\\images\\measure\\20261018_203840_129832.png",
+  "method": "checkerboard-center PnP (not A4-corner experiment)",
+  "square_size_m": 0.02,
+  "square_size_measured": false,
+  "reference_m": 0.4,
+  "reference_quality": "User-reported approximate rangefinder reading; alignment and reference point unverified",
+  "position_m": [
+    0.04947219840642936,
+    -0.026872105944135864,
+    0.3936447487740541
+  ],
+  "distance_m": 0.3976503448136643,
+  "depth_m": 0.3936447487740541,
+  "difference_m": -0.0023496551863357307,
+  "absolute_relative_difference_percent": 0.5874137965839327,
+  "reprojection_rms_px": 0.7894167250552295,
+  "note": "Pattern center is offset by 5 mm from paper center in the supplied PDF. Paper flatness remains a limitation."
+}

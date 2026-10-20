@@ -1,0 +1,11 @@
+.venv/
+.venv_mnist/
+__pycache__/
+*.py[cod]
+.DS_Store
+submissions/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+qB_sentry/results/optimized/point_geometry.npz

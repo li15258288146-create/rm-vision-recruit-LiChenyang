@@ -1,0 +1,343 @@
+{
+  "check_count": 55,
+  "checks": [
+    {
+      "path": "qB_sentry/path1.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/astar/path1.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/astar/path1.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path1.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path1.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path1.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/dijkstra/path1.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/dijkstra/path1.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path1.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path1.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path1.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/path2.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/astar/path2.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/astar/path2.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path2.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path2.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path2.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/dijkstra/path2.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/dijkstra/path2.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path2.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path2.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path2.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/path3.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/astar/path3.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/astar/path3.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path3.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path3.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path3.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/dijkstra/path3.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/dijkstra/path3.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path3.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path3.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path3.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/path4.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/astar/path4.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/astar/path4.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path4.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path4.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path4.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/dijkstra/path4.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/dijkstra/path4.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path4.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path4.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path4.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/path5.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/astar/path5.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/astar/path5.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path5.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path5.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/astar/path5.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/dijkstra/path5.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/optimized/dijkstra/path5.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path5.csv",
+      "map": "data/map/rmuc_2025.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path5.csv",
+      "map": "qB_sentry/results/optimized/registered_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    },
+    {
+      "path": "qB_sentry/results/robust/dijkstra/path5.csv",
+      "map": "qB_sentry/results/robust/fused_map.yaml",
+      "official_passed": true,
+      "dense_segments_passed": true
+    }
+  ],
+  "unreachable": {
+    "6": "insufficient_robot_clearance",
+    "7": "outside_map"
+  },
+  "hashes": {
+    "data/map/queries.json": "4804519b22049f084b1e7a5ed88d0ab5454cc13205ce6dc52f28ca3d408469eb",
+    "tools/check_path.py": "af95d5d5241d41ea9c76e3c36fac41e80bf022ea850e1980aee77da78f59bc6a"
+  }
+}

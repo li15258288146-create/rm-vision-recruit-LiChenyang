@@ -1,0 +1,166 @@
+{"epoch": 1, "train_loss": 0.5325344978419218, "validation_loss": 0.19999003105163574, "validation_accuracy": 0.9422, "seconds": 1.683673599967733}
+{"epoch": 2, "train_loss": 0.1587412962284955, "validation_loss": 0.11965298824310303, "validation_accuracy": 0.9638, "seconds": 1.70983539998997}
+{"epoch": 3, "train_loss": 0.1063016233552586, "validation_loss": 0.0966746862411499, "validation_accuracy": 0.9704, "seconds": 1.7700648999889381}
+{"epoch": 4, "train_loss": 0.08509127715934407, "validation_loss": 0.08715658874511718, "validation_accuracy": 0.971, "seconds": 1.7646461000549607}
+{"epoch": 5, "train_loss": 0.07308204639499838, "validation_loss": 0.07328574085235595, "validation_accuracy": 0.9766, "seconds": 1.8113933999557048}
+W1020 18:37:19.370000 28104 Lib\site-packages\torch\onnx\_internal\exporter\_registration.py:107] torchvision is not installed. Skipping torchvision::nms
+W1020 18:37:19.371000 28104 Lib\site-packages\torch\onnx\_internal\exporter\_registration.py:107] torchvision is not installed. Skipping torchvision::roi_align
+W1020 18:37:19.372000 28104 Lib\site-packages\torch\onnx\_internal\exporter\_registration.py:107] torchvision is not installed. Skipping torchvision::roi_pool
+W1020 18:37:19.372000 28104 Lib\site-packages\torch\onnx\_internal\exporter\_registration.py:107] torchvision is not installed. Skipping torchvision::deform_conv2d
+[torch.onnx] Obtain model graph for `SmallCNN([...]` with `torch.export.export(..., strict=False)`...
+[torch.onnx] Obtain model graph for `SmallCNN([...]` with `torch.export.export(..., strict=False)`... ✅
+[torch.onnx] Run decompositions...
+[torch.onnx] Run decompositions... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+[torch.onnx] Optimize the ONNX graph...
+[torch.onnx] Optimize the ONNX graph... ✅
+{
+  "scope": "Independent MNIST handwritten-digit classification only",
+  "started_at": "2026-10-20T18:37:07.835008+08:00",
+  "seed": 20261020,
+  "cpu": "Intel(R) Core(TM) i9-14900HX",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.11",
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.0"
+  },
+  "split": {
+    "train": 55000,
+    "validation": 5000,
+    "test": 10000
+  },
+  "preprocessing": "float32 grayscale / 255, NCHW, no augmentation",
+  "parameters": 26698,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5325344978419218,
+      "validation_loss": 0.19999003105163574,
+      "validation_accuracy": 0.9422,
+      "seconds": 1.683673599967733
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1587412962284955,
+      "validation_loss": 0.11965298824310303,
+      "validation_accuracy": 0.9638,
+      "seconds": 1.70983539998997
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.1063016233552586,
+      "validation_loss": 0.0966746862411499,
+      "validation_accuracy": 0.9704,
+      "seconds": 1.7700648999889381
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.08509127715934407,
+      "validation_loss": 0.08715658874511718,
+      "validation_accuracy": 0.971,
+      "seconds": 1.7646461000549607
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.07308204639499838,
+      "validation_loss": 0.07328574085235595,
+      "validation_accuracy": 0.9766,
+      "seconds": 1.8113933999557048
+    }
+  ],
+  "training_seconds": 8.74980069999583,
+  "checkpoint_source": "best validation accuracy",
+  "test": {
+    "pytorch_correct": 9806,
+    "onnx_correct": 9806,
+    "count": 10000,
+    "prediction_agreement": 1.0,
+    "max_absolute_logit_difference": 7.62939453125e-06
+  },
+  "benchmark": [
+    {
+      "batch": 1,
+      "engine": "pytorch",
+      "samples": 2500,
+      "mean_ms": 0.11666995999999999,
+      "median_ms": 0.1077,
+      "p95_ms": 0.17131499999999994,
+      "images_per_second": 8571.186619074868
+    },
+    {
+      "batch": 1,
+      "engine": "onnxruntime",
+      "samples": 2500,
+      "mean_ms": 0.01817056,
+      "median_ms": 0.0169,
+      "p95_ms": 0.022304999999999974,
+      "images_per_second": 55034.07710054066
+    },
+    {
+      "batch": 32,
+      "engine": "pytorch",
+      "samples": 2500,
+      "mean_ms": 1.7401362,
+      "median_ms": 1.70105,
+      "p95_ms": 2.14061,
+      "images_per_second": 18389.365154290797
+    },
+    {
+      "batch": 32,
+      "engine": "onnxruntime",
+      "samples": 2500,
+      "mean_ms": 0.2343114,
+      "median_ms": 0.2197,
+      "p95_ms": 0.30510999999999994,
+      "images_per_second": 136570.39307519823
+    }
+  ],
+  "inference_threads": 1,
+  "warmup_calls": 100,
+  "repeats": 5,
+  "calls_per_repeat": 500,
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "data": [
+    {
+      "file": "train-images-idx3-ubyte.gz",
+      "url": "https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz",
+      "md5": "f68b3c2dcbeaaa9fbdd348bbdeb94873",
+      "sha256": "440fcabf73cc546fa21475e81ea370265605f56be210a4024d2ca8f203523609"
+    },
+    {
+      "file": "train-labels-idx1-ubyte.gz",
+      "url": "https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz",
+      "md5": "d53e105ee54ea40749a09fcbcd1e9432",
+      "sha256": "3552534a0a558bbed6aed32b30c495cca23d567ec52cac8be1a0730e8010255c"
+    },
+    {
+      "file": "t10k-images-idx3-ubyte.gz",
+      "url": "https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz",
+      "md5": "9fb629c4189551a2d022fa330f9573f3",
+      "sha256": "8d422c7b0a1c1c79245a5bcf07fe86e33eeafee792b84584aec276f5a2dbc4e6"
+    },
+    {
+      "file": "t10k-labels-idx1-ubyte.gz",
+      "url": "https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz",
+      "md5": "ec29112dd5afa0611ce80d1b7f02629c",
+      "sha256": "f7ae60f92e00ec6debd23a6088c31dbd2371eca3ffa0defaefb259924204aec6"
+    }
+  ],
+  "artifacts": {
+    "model.pt": {
+      "bytes": 110065,
+      "sha256": "bf81ba2e8e572a545895a520c867cfc36978911650b7da786f7833e494eac8d8"
+    },
+    "model.onnx": {
+      "bytes": 120577,
+      "sha256": "48dbffe647aefb07854bd7873453294786c95d601ec392c690d0f3ec17d82e0e"
+    }
+  }
+}
+RESULT_DIRECTORY D:\RM1\extra\mnist\runs\20261020_183707

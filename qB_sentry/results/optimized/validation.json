@@ -1,0 +1,67 @@
+{
+  "cross_checks": [
+    {
+      "query": 1,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 1,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 2,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 2,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 3,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 3,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 4,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 4,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 5,
+      "algorithm": "astar",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    },
+    {
+      "query": 5,
+      "algorithm": "dijkstra",
+      "reference_checker_passed": false,
+      "original_endpoints_preserved": true
+    }
+  ],
+  "queries_sha256": "4804519b22049f084b1e7a5ed88d0ab5454cc13205ce6dc52f28ca3d408469eb",
+  "checker_sha256": "af95d5d5241d41ea9c76e3c36fac41e80bf022ea850e1980aee77da78f59bc6a",
+  "robot_radius_m": 0.3
+}
