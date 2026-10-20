@@ -22,7 +22,7 @@
 
 使用项目独立虚拟环境，当前Python 3.13.11；直接依赖清单分题保存。2026-10-19重新核对环境版本，NumPy、OpenCV、Matplotlib、PyYAML、ReportLab、Open3D及SciPy均有已安装版本，pip check无依赖冲突，见 [最终环境记录](q1_env/environment_final_check.json)。这只验证环境与依赖，不代表在本次整理中重跑了实验。
 
-2026-10-20已在D:\RM1初始化Git仓库，准备最终版提交；远端仓库已建立：[rm-vision-recruit-LiChenyang](https://github.com/li15258288146-create/rm-vision-recruit-LiChenyang)（私有），最终版已推送至main，含答辩提纲、附加题报告、MNIST代码、数据和模型。已核对远端512个文件与本地Git内容哈希一致；私有仓库需向评审开放访问。此次初始化不代表开发期间已有持续提交历史，不补造过去记录。
+2026-10-20已在D:\RM1初始化Git仓库，准备最终版提交；远端仓库已建立：[rm-vision-recruit-LiChenyang](https://github.com/li15258288146-create/rm-vision-recruit-LiChenyang)（公开），最终版已推送至main，含答辩提纲、附加题报告、MNIST代码、数据和模型。已核对远端512个文件与本地Git内容哈希一致；仓库已公开，评审可直接访问。此次初始化不代表开发期间已有持续提交历史，不补造过去记录。
 
 ### 题二：标定与单点粗测
 

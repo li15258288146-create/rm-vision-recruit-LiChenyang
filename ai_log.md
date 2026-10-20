@@ -63,3 +63,5 @@ AI补写ARM/x86、NPU/GPU概念比较与ROS 2简述，来源链接见[附加题�
 2026-10-20：GitHub连接器恢复，确认账号li15258288146-create并创建私有仓库rm-vision-recruit-LiChenyang；本地提交采用对应GitHub隐私邮箱。连接器认证与本地Git认证独立，本地上传等待GitHub CLI授权。
 
 2026-10-20上传完成：用户完成GitHub CLI授权后，将512个文件推送到私有仓库main；逐项比较远端树与本地Git blob哈希，全部一致。核对此前最终ZIP的511个源文件全部存在，并增加DEFENSE_OUTLINE.md；虚拟环境、缓存与旧ZIP均未上传。随后更新README、题一说明和缺项清单中的上传状态。问卷和评审访问权限仍由本人落实。
+
+2026-10-20：按用户明确要求将GitHub仓库改为公开，匿名API确认private=false；同步更新文档中的当前可见性说明。
